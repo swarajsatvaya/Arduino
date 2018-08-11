@@ -10,8 +10,6 @@
   Note that this sketch uses LED_BUILTIN to find the pin with the internal LED
 */
 
-int ledState = LOW;
-
 unsigned long previousMillis = 0;
 const long interval = 1000;
 int curpin = 0;
